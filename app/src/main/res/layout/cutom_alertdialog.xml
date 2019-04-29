@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="JADWAL SHALAT"
+            android:fontFamily="@font/zefir"
+            android:textSize="60dp"
+            android:background="#6ab04c"
+            android:textColor="#fff"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="Aplikasi Jadwal Shalat Bertujuan Agar Muslim - Muslim Milenial Dapat Megetauhi Jadwal Sholat Terbaru Di Dalam Aplikasi ini"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:onClick="Logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout" />
+
+        <Button
+            android:text="@string/english"
+            android:onClick="gantiBahasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
